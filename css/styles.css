@@ -74,9 +74,10 @@ li{
     text-transform: uppercase;
 }
 
-.button-blue{
+.hero a{
     color: var(--white-title-color);
     background-color: var(--additional-color);
+    text-decoration: none;
 }
 
 /* наши преимущества */
