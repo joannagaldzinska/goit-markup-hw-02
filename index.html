@@ -10,33 +10,34 @@
     <!-- неизменная шапка сайта -->
     <header>
         <nav>
-            <a href="">Web Studio</a>
-
-            <ul>
-                <li><a href="">Студия</a></li>
+            
+            <a href="" class="logo-link"><span class="part-first">Web</span><span class="part-second">Studio</span></a>
+            
+            <ul class="nav">
+                <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
         </nav>
 
-            <ul>
-                <li><img src="./images/envelope.svg" alt="конверт"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><img src="./images/smartphone.svg" alt="смартфон"><a href="tel:00380961111111">+38 096 111 11 11</a></li>
+            <ul class="contacts">
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:00380961111111">+38 096 111 11 11</a></li>
             </ul>
         
     </header>
 
     <main>
         <!-- герой -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="" target="_blank">Заказать услугу</a> <!-- это будет кнопка в будущем -->
+        <section class="hero">
+            <h1>Эффективные решения<br> для вашего бизнеса</h1>
+            <button target="_blank" class="button-blue">Заказать услугу</button> 
         </section>
         
         <!-- наши преимущества -->
         <section>
             <h2 hidden>Наши преимущества</h2> <!-- заголовок будет невидимым, но должен существовать -->
-            <ul>
+            <ul class="advantages">
                 <li>
                     <img src="./images/antenna.svg" alt="антенна">
                     <h3>Внимание к деталям</h3>
@@ -61,8 +62,8 @@
         </section>
 
         <!-- Чем мы занимаемся -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="activities">
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <h3>Десктопные приложения</h3>
@@ -80,8 +81,8 @@
         </section>
 
         <!-- Наша команда -->
-        <section>
-            <h2>Наша команда</h2>
+        <section class="team">
+            <h2 class="section-title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/person1.jpg" alt="фото Кучеренко" width="270" height="260">
@@ -131,10 +132,10 @@
         </section>
 
         <!-- Постоянные клиенты -->
-        <section>
-            <h2>Постоянные клиенты</h2>
+        <section class="clients">
+            <h2 class="section-title">Постоянные клиенты</h2>
 
-            <ul>
+            <ul class="clients-list">
                 <li>
                     <a href="" target="_blank"><img src="./images/logo1.svg" alt="логотип компании"></a>
                 </li>
@@ -158,13 +159,15 @@
 
     </main>
 
+<!-- FOOTER -->
+
     <footer>
         <div>
-            <a href="">Web Studio</a>
+            <a href="" class="logo-link"><span class="part-first">Web</span><span class="part-second">Studio</span></a>
             
             <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <ul>
+                <p class="city">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="footer-contacts">
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:00380961111111">+38 096 111 11 11</a></li>
                 </ul>
@@ -174,8 +177,8 @@
         </div>
 
         <div>
-            <b>Присоединяйтесь</b>
-            <ul>
+            <b class="attention">Присоединяйтесь</b>
+            <ul class="sm-list">
                 <li><a href="" aria-label="insta icon">I</a></li>
                 <li><a href="" aria-label="twitter icon">T</a></li>
                 <li><a href="" aria-label="facebook icon">F</a></li>
@@ -184,7 +187,7 @@
         </div>
 
         <div>
-            <b>Подпишитесь на рассылку</b>
+            <b class="attention">Подпишитесь на рассылку</b>
             <!-- здесь будет форма -->
         </div>
     </footer>    

@@ -1,0 +1,163 @@
+:root{
+    --primary-text-color: #757575;
+    --black-title-color: #212121;
+    --white-title-color: #ffffff;
+    --additional-color: #2196F3;
+
+    --primary-bgc: #ffffff;
+    --button-bcg: #F5F4FA;
+    --temporary-bgc: #c2c2c2;
+}
+
+body{
+    color:var(--primary-text-color);
+    background-color: var(--temporary-bgc);
+    
+}
+li{
+    list-style: none;
+}
+
+.section-title{
+    color: var(--black-title-color);
+}
+
+/* LOGO */
+.part-first{
+    color: var(--additional-color);
+}
+
+.part-second{
+    color: var(--black-title-color);
+}
+
+.logo-link{
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+
+.nav a{
+    color: var(--black-title-color);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: var(--additional-color);
+
+}
+
+.nav a:focus{
+    color: var(--additional-color);
+
+}
+
+.nav a:active{
+    color: var(--additional-color);
+
+}
+
+/* CONTACTS */
+
+.contacts a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.contacts a:hover{
+    color: var(--additional-color)
+}
+
+/* герой */
+.hero h1{
+    color: var(--white-title-color);
+    text-transform: uppercase;
+}
+
+.button-blue{
+    color: var(--white-title-color);
+    background-color: var(--additional-color);
+}
+
+/* наши преимущества */
+
+.advantages h3{
+    color: var(--black-title-color);
+    text-transform: uppercase;
+}
+
+/* Чем мы занимаемся */
+
+.activities h3{
+    color: var(--white-title-color);
+    text-transform: uppercase;
+}
+
+/* team */
+
+.team h3{
+    color: var(--black-title-color);
+}
+
+.team p{
+
+}
+
+.team a:hover{
+    background-color: var(--additional-color);
+}
+
+/* Постоянные клиенты */
+
+.clients-list a{
+    color: orangered;
+}
+
+/* footer */
+
+.city{
+    color: var(--white-title-color);
+}
+
+.footer-contacts a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.attention{
+    color: var(--white-title-color);
+}
+
+.sm-list a:hover{
+    background-color: var(--additional-color);
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-button{
+    color: var(--black-title-color);
+    background-color: var(--button-bcg);
+
+}
+
+.portfolio-button:hover{
+    color: var(--white-title-color);
+    background-color: var(--additional-color);
+}
+
+.portfolio-list a{
+    text-decoration: none;
+}
+
+.portfolio-list h2{
+    color: var(--black-title-color);
+}
+
+.portfolio-type{
+    color: var(--primary-text-color);
+}
+
+.portfolio-description{
+    color: var(--white-title-color);
+}
