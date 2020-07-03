@@ -16,15 +16,16 @@ body{
     letter-spacing: 0.03em;
     
 }
-li{
+.list{
     list-style: none;
 }
 
 .section-title{
     color: var(--black-title-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
+    text-align: center;
 }
 
 /* LOGO */
@@ -134,7 +135,7 @@ li{
     line-height: 1.14;
 }
 
-/* team */
+/* Команда */
 
 .team h3{
     color: var(--black-title-color);
@@ -151,6 +152,20 @@ li{
 .team a:hover{
     background-color: var(--additional-color);
 }
+.team a:focus{          
+    background-color: var(--additional-color);
+}
+
+/* Постоянные клиенты  */
+
+/* .client-icon:hover svg{
+    fill: red;
+} */
+
+.clients-icons-list:hover .client-icon {
+fill: rgb(255, 0, 0);
+}
+
 
 /* footer */
 
