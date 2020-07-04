@@ -14,29 +14,29 @@
 <body>
     <!-- неизменная шапка сайта -->
     <header>
-        <nav>
-        
+        <nav class="nav">
+    
             <a href="" class="logo"><span class="part-first">Web</span><span class="part-second">Studio</span></a>
-        
-            <ul class="nav">
+    
+            <ul class="nav list">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        
-        <ul class="contacts">
+    
+        <ul class="contacts list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:00380961111111">+38 096 111 11 11</a></li>
         </ul>
-
+    
     </header>
 
     <main>
 
         <h1 hidden>Портфолио</h1>
 
-        <ul>
+        <ul class="list">
             <li><button class="portfolio-button">Все</button></li>
             <li><button class="portfolio-button">Веб-сайты</button></li>
             <li><button class="portfolio-button">Приложения</button></li>
@@ -45,7 +45,7 @@
         </ul>
 
         <ul class="portfolio-list">
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img.jpg" alt="ноутбук" width="370" height="294">
                     <h2>Технокряк</h2>
@@ -54,7 +54,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-1.jpg" alt="баскетболисты" width="370" height="294">
                     <h2 lang="en">Постер New Orlean vs Golden Star</h2>
@@ -63,7 +63,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-2.jpg" alt="ресторан морепродуктов" width="370" height="294">
                     <h2>Ресторан Seafood</h2>
@@ -72,7 +72,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-3.jpg" alt="наушники" width="370" height="294">
                     <h2>Проект Prime</h2>
@@ -81,7 +81,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-4.jpg" alt="ящики" width="370" height="294">
                     <h2>Проект Boxes</h2>
@@ -90,7 +90,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-5.jpg" alt="экран компьютера" width="370" height="294">
                     <h2 lang="en">Inspiration has no Borders</h2>
@@ -99,7 +99,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-6.jpg" alt="открытая книга" width="370" height="294">
                     <h2>Издание Limited Edition</h2>
@@ -108,7 +108,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-7.jpg" alt="метка" width="370" height="294">
                     <h2>Проект LAB</h2>
@@ -117,7 +117,7 @@
                     шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
-            <li>
+            <li class="portfolio-list-item list" >
                 <a href="">
                     <img src="./img-portfolio/img-8.jpg" alt="портативный компьютер" width="370" height="294">
                     <h2 lang="en">Growing Business</h2>
@@ -134,11 +134,12 @@
         <div>
             <a href="" class="logo"><span class="part-first">Web</span><span class="part-second">Studio</span></a>
     
-            <address>
-                <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="footer-contacts">
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:00380961111111">+38 096 111 11 11</a></li>
+            <address class="location">
+                <a class="map" href="https://goo.gl/maps/HwrvqcL7cg5Yp1Jj8">г. Киев, пр-т Леси Украинки, 26</a>
+    
+                <ul class="footer-contacts list">
+                    <li><a class="footer-contacts-details" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="footer-contacts-details" href="tel:00380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
     
@@ -147,7 +148,7 @@
     
         <div>
             <b class="attention">Присоединяйтесь</b>
-            <ul class="sm-list">
+            <ul class="sm-list list">
                 <li><a href="" aria-label="insta icon">I</a></li>
                 <li><a href="" aria-label="twitter icon">T</a></li>
                 <li><a href="" aria-label="facebook icon">F</a></li>
@@ -157,9 +158,9 @@
     
         <div>
             <b class="attention">Подпишитесь на рассылку</b>
-        <!-- здесь будет форма -->
-    </div>
-</footer>
+            <!-- здесь будет форма -->
+        </div>
+    </footer>
 </body>
 
 </html>
