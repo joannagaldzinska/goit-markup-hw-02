@@ -19,7 +19,7 @@
 body{
     color:var(--primary-text-color);
     background-color: var(--temporary-bgc);
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -37,6 +37,10 @@ body{
     text-align: center;
 }
 
+.current{
+    color: var(--additional-color);
+}
+
 /* LOGO */
 .part-first{
     color: var(--additional-color);
@@ -47,7 +51,7 @@ body{
 }
 
 .logo{
-    font-family: raleway, sans-serif;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 26px;
@@ -110,6 +114,8 @@ body{
 
 .advantages h3,
 .activities h3{
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--black-title-color);
     text-transform: uppercase;
     font-weight: bold;
@@ -146,6 +152,7 @@ body{
     background-color: var(--additional-color);
 }
 
+
 /* Постоянные клиенты  */
 
 .client-list-item:hover .clients-list-item-icon{
@@ -173,7 +180,7 @@ body{
 .attention{
     color: var(--white-title-color);
     font-weight: bold;
-
+    text-transform: uppercase;
 }
 
 .sm-list a:hover{
