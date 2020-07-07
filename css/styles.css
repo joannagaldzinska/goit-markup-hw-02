@@ -1,10 +1,3 @@
-/* цвет основного текста #000000 */
-/* вторичный цвет текста  rgba(0, 0, 0, 0.8);
- */
-/* белый #FFFFFF  */
-/* акцент #18A0FB */
-/* вторичный цвет фона #F5F5F5; */
-
 :root{
     --primary-text-color: #757575;
     --black-title-color: #212121;
@@ -16,6 +9,14 @@
     --temporary-bgc: #c2c2c2;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit; 
+}
+
 body{
     color:var(--primary-text-color);
     background-color: var(--temporary-bgc);
@@ -24,9 +25,21 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     
+    
 }
 .list{
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav .active-page{
+    color: var(--additional-color);
 }
 
 .section-title{
@@ -35,10 +48,24 @@ body{
     font-size: 36px;
     line-height: 1.7;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .current{
     color: var(--additional-color);
+}
+
+.container{
+    width: 1230px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+}
+
+section{
+    outline: 2px solid red;
 }
 
 /* LOGO */
@@ -88,14 +115,21 @@ body{
 }
 
 /* герой */
+
+.hero{
+    text-align: center;
+    margin: 0;
+}
+
 .hero h1{
     color: var(--white-title-color);
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em
+    letter-spacing: 0.06em;
+    padding-top: 200px;
+    margin-bottom: 30px;
 }
 
 .hero a{
@@ -106,45 +140,78 @@ body{
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
-    letter-spacing: 0.06em;
-    
-    }
+    letter-spacing: 0.06em;   
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+}
 
 /* наши преимущества */
 
-.advantages h3,
-.activities h3{
+.advantages{
+    padding-top: 94px;
+    padding-bottom: 47px;
+}
+
+.advantages-list h3,
+.activities-list h3{
     font-size: 14px;
     line-height: 1.14;
     color: var(--black-title-color);
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 
-.advantages p{
+.advantages-list h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.advantages-list p{
     font-size: 14px;
     line-height: 1.7;
 }
 
 /* Чем мы занимаемся */
 
-.activities h3{
+.activities{
+    margin: 0px;
+    padding-top: 47px;
+    padding-bottom: 94px;
+}
+
+.activities-list h3{
     color: var(--white-title-color);
     text-align: center;
 }
 
 /* Команда */
 
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team img{
+    margin-bottom: 30px;
+}
+
 .team h3{
     color: var(--black-title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 10px;
 }
 
 .team p{
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 16px;
 }
 
 .team a:hover,
@@ -154,6 +221,11 @@ body{
 
 
 /* Постоянные клиенты  */
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .client-list-item:hover .clients-list-item-icon{
     fill: var(--additional-color); 
